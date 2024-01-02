@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>My Gallery</title>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <body>
+
+    <div class="w3-content" style="max-width:1500px">
+
+        <header>
+        <div class="w3-opacity"> 
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom">
+          <h1 style="color: black;"><b>My Gallery</b></h1>
+          <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+        </header>
+    </div>
+    
+
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+    <div class="w3-third">
+      <img src="image/20231216131946_IMG_4741.JPG" style="width:100%">
+      <img src="image/_MG_7504_edit_53339122748609.jpg" style="width:100%">
+      <img src="image/DSC_0165 (1).JPG" style="width:100%">
+      <img src="image/DSC_0821 (1).JPG" style="width:100%">
+      <img src="image/IMG-20230618-WA0018.jpg" style="width:100%">
+      <img src="image/IMG_0079.JPG" style="width:100%">
+      <img src="image/_MG_7513.JPG" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="image/IMG_20221114_222837_996.jpg" style="width:100%">
+      <img src="image/IMG_20221130_163617_786.jpg" style="width:100%">
+      <img src="image/IMG_20230102_182653_390.JPG" style="width:100%">
+      <img src="image/IMG_20230107_135652_346.jpg" style="width:100%">
+      <img src="image/IMG_20230616_200241_381.jpg" style="width:100%">
+    </div>
+  
+    <div class="w3-third">
+      <img src="image/IMG_3225.JPG" style="width:100%">
+      <img src="image/IMG_3466.JPG" style="width:100%">
+      <img src="image/IMG_3473.JPG" style="width:100%">
+      <img src="image/IMG_7866.JPG" style="width:100%">
+      <img src="image/IMG_9297.JPG" style="width:100%">
+      <img src="image/IMG_20230702_121902_309.jpg" style="width:100%">
+      <img src="image/IMG-20220918-WA0018.jpg" style="width:100%">
+    </div>
+
+      <table align="center">
+        <tr>
+          <td><video width="320" height="240" controls>
+          <source src="video/IMG_1434 (1).mp4" type="video/mp4">
+          <source src="video/IMG_1434 (1).mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <td><video width="320" height="240" controls>
+          <source src="video//IMG_1464.mp4" type="video/mp4">
+          <source src="video/IMG_1464.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <td><video width="320" height="240" controls>
+          <source src="video/IMG_2329.mp4" type="video/mp4">
+          <source src="video/IMG_2329.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video></td>
+        </tr>
+      </table>
+</div>
+
+<script>
+
+    function myFunction() {
+      var x = document.getElementById("myGrid");
+      if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+      } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+      }
+    }
+    
+    function w3_open() {
+      document.getElementById("mySidebar").style.width = "100%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    
+
+    </body>
+  </html>

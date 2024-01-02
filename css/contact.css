@@ -1,0 +1,84 @@
+body
+    {background-size: cover;}
+
+a:link
+    {
+        color: black;
+        background-color: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0px 50px;
+    }
+
+a:visited
+    {
+        color: black;
+        background-color: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }
+
+a:hover
+    {
+        color: black;
+        background-color: none;
+        border-bottom: 2px solid black;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 50px;
+    }
+
+a:active
+    {
+        color: indigo;
+        background-color: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }
+
+div.fixed
+    {
+        position: sticky;
+        top: 25px;
+        bottom: 0px;
+        padding: 5px;
+        background-color: none;
+        border: 2px solid none;
+    }
+
+div.absolute 
+    {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: auto;
+        height: auto;
+        border: 3px solid #73AD21;
+      }
+
+.grid-container 
+    {
+      display: grid;
+      gap: none;
+      grid-template-columns: auto auto auto;
+      background-color: none;
+      padding: 0px;
+      margin-top: 0px;
+    }
+    
+.grid-item 
+    {
+      border:none;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 220px;
+      padding-bottom: 220px;
+      font-size: 30px;
+      text-align: center;
+    }

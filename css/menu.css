@@ -1,0 +1,92 @@
+header
+    {background-color: none;
+     text-align: center;
+     padding: 1px;
+     margin-bottom: 5px;
+    }
+
+
+body
+    {background-size: cover;}
+
+a:link
+    {
+        color: black;
+        background-color: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 50px;
+    }
+
+a:visited
+    {
+        color: black;
+        background-color: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }
+
+a:hover
+    {
+        color: white;
+        background-color: none;
+        border-bottom: 2px solid white;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 50px;
+    }
+
+a:active
+    {
+        color: white;
+        background-color: rgb(0, 90, 8);
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 50px;
+    }
+
+h1
+    {
+        color: indigo;
+        background-color: thistle;
+        text-decoration: none;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px;
+    }
+
+div
+    {
+        margin-bottom: 50px;
+    }
+
+div.relative
+    {
+        position: absolute;
+        top: 350px;
+        left: 5px;
+        right: 5px;
+        width: 1200px;
+        height: 2000px;
+        border: 3px solid none;
+    }
+
+div.sticky 
+    {
+        position: -webkit-sticky;
+        
+    }
+
+div.fixed
+    {
+        position: sticky;
+        top: 25px;
+        padding: 5px;
+        background-color: none;
+        border: 2px solid none;
+    }
